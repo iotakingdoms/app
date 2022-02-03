@@ -79,7 +79,7 @@ jobs:
       - uses: iotakingdoms/actions/packages/cached-npm-ci@main
         with:
           args: "--ignore-scripts"
-      - run: npm run test:unit
+      - run: npm run test
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
