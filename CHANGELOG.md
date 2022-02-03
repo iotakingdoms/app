@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/iotakingdoms/app/compare/v0.1.1...v0.1.2) (2022-02-03)
+
+
+### Bug Fixes
+
+* dockerfile failing to install dependencies due to npm scripts being executed ([c83ff98](https://github.com/iotakingdoms/app/commit/c83ff980a7e79461ddd75e0f4dc8ba5fd47c9742))
+
 ### 0.1.1 (2022-02-03)
 
 
