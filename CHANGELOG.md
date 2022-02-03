@@ -1,0 +1,17 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 0.1.1 (2022-02-03)
+
+
+### Features
+
+* added npm scripts, hooks and more stuff ([5d75c85](https://github.com/iotakingdoms/app/commit/5d75c859b661de5ef1e503b8750e876c56aa5b46))
+* dockerfile and release version workflow ([6d798d6](https://github.com/iotakingdoms/app/commit/6d798d6fc34e8c923dee9ee8e954127de3a93e70))
+
+
+### Bug Fixes
+
+* docker ignore some files ([edca8cd](https://github.com/iotakingdoms/app/commit/edca8cd219207ac10e9e453ff9078df600a61abd))
+* package name to scoped ([9906035](https://github.com/iotakingdoms/app/commit/99060357d412b41bc6215ddb5909c2cf48611aa7))
