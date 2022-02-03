@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/iotakingdoms/app/compare/v0.1.3...v0.1.4) (2022-02-03)
+
+
+### Features
+
+* add a health endpoint ([d0ae04d](https://github.com/iotakingdoms/app/commit/d0ae04daddb70057a8bfb796c4bb5ba52e0ae472))
+
 ### [0.1.3](https://github.com/iotakingdoms/app/compare/v0.1.2...v0.1.3) (2022-02-03)
 
 
