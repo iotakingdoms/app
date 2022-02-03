@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/iotakingdoms/app/compare/v0.1.2...v0.1.3) (2022-02-03)
+
+
+### Bug Fixes
+
+* sonar properties ([db5ff6b](https://github.com/iotakingdoms/app/commit/db5ff6b8ccd65bfaa1c917431fbf5f0a185c2a91))
+* sonarcloud workflow ([0ed519e](https://github.com/iotakingdoms/app/commit/0ed519e4678057d96925d4e71db27f8533728225))
+
 ### [0.1.2](https://github.com/iotakingdoms/app/compare/v0.1.1...v0.1.2) (2022-02-03)
 
 
