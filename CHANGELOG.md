@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/iotakingdoms/app/compare/v0.1.7...v0.1.8) (2022-02-03)
+
+
+### Bug Fixes
+
+* docker nginx needs to router all routes to react app ([b591618](https://github.com/iotakingdoms/app/commit/b5916186ef178ba9c793c4e0fb7d9f5f133da0c2))
+
 ### [0.1.7](https://github.com/iotakingdoms/app/compare/v0.1.6...v0.1.7) (2022-02-03)
 
 ### [0.1.6](https://github.com/iotakingdoms/app/compare/v0.1.5...v0.1.6) (2022-02-03)
