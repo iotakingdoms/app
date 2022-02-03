@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/iotakingdoms/app/compare/v0.1.4...v0.1.5) (2022-02-03)
+
+
+### Bug Fixes
+
+* merge conflict ([f1e7cff](https://github.com/iotakingdoms/app/commit/f1e7cff1a535775df094c1ad3619360ce4c7f8fd))
+
 ### [0.1.4](https://github.com/iotakingdoms/app/compare/v0.1.3...v0.1.4) (2022-02-03)
 
 
