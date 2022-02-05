@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.11](https://github.com/iotakingdoms/app/compare/v0.1.10...v0.1.11) (2022-02-05)
+
+
+### Bug Fixes
+
+* ensure eslint runs for both ts and tsx files ([f0ac170](https://github.com/iotakingdoms/app/commit/f0ac1700b82bf2531c410d7f1800eb2f8bba2ced))
+* test coverage ([da4d753](https://github.com/iotakingdoms/app/commit/da4d7536556eb1052b8f9f67ba111ec765d136ba))
+
 ### [0.1.10](https://github.com/iotakingdoms/app/compare/v0.1.9...v0.1.10) (2022-02-05)
 
 ### [0.1.9](https://github.com/iotakingdoms/app/compare/v0.1.8...v0.1.9) (2022-02-05)
