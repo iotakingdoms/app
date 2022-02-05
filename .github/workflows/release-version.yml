@@ -6,37 +6,11 @@ on:
 jobs:
   release-npm:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: iotakingdoms/actions/packages/release-version@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           npm-token: ${{ secrets.NPM_TOKEN }}
-  release-docker:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Log in to the Container registry
-        uses: docker/login-action@7948fffc4991dccc0bd25c3968d21aa61369a5ad
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Extract metadata (tags, labels) for Docker
-        id: meta
-        uses: docker/metadata-action@2cad85de2462ab92a22ff973a347fb25c91d6082
-        with:
-          images: ghcr.io/${{ github.repository }}
-          tags: |
-            type=ref,event=tag
-            type=semver,pattern={{version}}
-      - name: Build and push Docker image
-        uses: docker/build-push-action@7f9d37fa544684fb73bfe4835ed7214c255ce02b
-        with:
-          context: .
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
