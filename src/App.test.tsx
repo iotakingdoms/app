@@ -4,6 +4,8 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const iotakingdomsTextElement = screen.getByText(/iotakingdoms/i);
+  expect(iotakingdomsTextElement).toBeInTheDocument();
+  const loginLinkElement = screen.getByText(/Login/i);
+  expect(loginLinkElement).toBeInTheDocument();
 });
