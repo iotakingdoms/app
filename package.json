@@ -18,7 +18,7 @@
   },
   "scripts": {
     "prepare": "husky install; npm run build",
-    "lint": "eslint ./src/**/*.ts",
+    "lint": "eslint ./src/**/*.{ts,tsx}",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false --coverage",
     "start": "react-scripts start",
