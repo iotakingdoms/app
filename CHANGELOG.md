@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/iotakingdoms/app/compare/v0.1.8...v0.1.9) (2022-02-05)
+
+
+### Bug Fixes
+
+* docker releases are now done automatically by release-version action ([85a4818](https://github.com/iotakingdoms/app/commit/85a48185241413d6cc000b5e30943e7946959ea2))
+
 ### [0.1.8](https://github.com/iotakingdoms/app/compare/v0.1.7...v0.1.8) (2022-02-03)
 
 
