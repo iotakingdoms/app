@@ -6,7 +6,10 @@ declare const window: Window & typeof globalThis & {
 };
 
 export default function Start() {
-  const authLink = 'http://auth.iotakingdoms.com/auth?response_type=code&client_id=ik-p-app&scope=openid&redirect_uri=http://app.iotakingdoms.com/cb';
+  const oidcIssuer = window.env.REACT_APP_OIDC_ISSUER;
+  const oidcClientId = window.env.REACT_APP_OIDC_CLIENT_ID;
+  const oidcRedirectUri = window.env.REACT_APP_OIDC_REDIRECT_URI;
+  const authLink = `${oidcIssuer}/auth?response_type=code&client_id=${oidcClientId}&scope=openid&redirect_uri=${oidcRedirectUri}`;
 
   return (
     <div className="App">
