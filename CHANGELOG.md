@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/iotakingdoms/app/compare/v0.1.11...v0.1.12) (2022-02-06)
+
+
+### Features
+
+* display REACT_APP_ENVIRONMENT var at start view ([37d8084](https://github.com/iotakingdoms/app/commit/37d80844ebc317901b8791533a6dc0edc08e51bb))
+
 ### [0.1.11](https://github.com/iotakingdoms/app/compare/v0.1.10...v0.1.11) (2022-02-05)
 
 
