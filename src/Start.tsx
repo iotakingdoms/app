@@ -6,6 +6,7 @@ export default function Start() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p>Environment: ({process.env.REACT_APP_ENVIRONMENT})</p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
