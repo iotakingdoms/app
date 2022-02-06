@@ -1,12 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 
+declare const window: Window & typeof globalThis & {
+  env: any
+};
+
 export default function Start() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Environment: ({process.env.REACT_APP_ENVIRONMENT})</p>
+        <p>Environment: {window.env.REACT_APP_ENVIRONMENT}</p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

@@ -21,7 +21,7 @@
     "lint": "eslint ./src/**/*.{ts,tsx}",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false --coverage",
-    "start": "react-scripts start",
+    "start": "chmod +x ./env.sh && ./env.sh && cp env-config.js ./public/ && react-scripts start",
     "release": "standard-version",
     "eject": "react-scripts eject"
   },
