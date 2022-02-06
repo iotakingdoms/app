@@ -18,6 +18,10 @@
 .env.test.local
 .env.production.local
 
+# generated env files for react
+/public/env-config.js
+env-config.js
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
