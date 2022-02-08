@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.14](https://github.com/iotakingdoms/app/compare/v0.1.13...v0.1.14) (2022-02-08)
+
+
+### Features
+
+* begin oidc integration (wip) ([6cde5f1](https://github.com/iotakingdoms/app/commit/6cde5f14784de897c4e0bed9b6156a8535d3751c))
+
+
+### Bug Fixes
+
+* populate auth link from env variables ([0a0ef94](https://github.com/iotakingdoms/app/commit/0a0ef94b5ff85d19722452eb4ceeab4f8e34c749))
+
 ### [0.1.13](https://github.com/iotakingdoms/app/compare/v0.1.12...v0.1.13) (2022-02-06)
 
 
