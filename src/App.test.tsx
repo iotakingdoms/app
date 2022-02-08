@@ -10,6 +10,8 @@ test('renders learn react link', () => {
   window.env = {};
   window.env.REACT_APP_ENVIRONMENT = 'LOCAL';
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const iotakingdomsTextElement = screen.getByText(/iotakingdoms/i);
+  expect(iotakingdomsTextElement).toBeInTheDocument();
+  const loginLinkElement = screen.getByText(/Login/i);
+  expect(loginLinkElement).toBeInTheDocument();
 });
