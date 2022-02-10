@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.15](https://github.com/iotakingdoms/app/compare/v0.1.14...v0.1.15) (2022-02-10)
+
+
+### Bug Fixes
+
+* handle callback ([3d04c7a](https://github.com/iotakingdoms/app/commit/3d04c7a99b12483ad4922ff05490c3b88c8112c6))
+* use env vars ([f6bc05e](https://github.com/iotakingdoms/app/commit/f6bc05e7401f550b90c41f62041bc1d98ef48c23))
+
 ### [0.1.14](https://github.com/iotakingdoms/app/compare/v0.1.13...v0.1.14) (2022-02-08)
 
 
