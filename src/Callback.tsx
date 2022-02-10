@@ -14,13 +14,6 @@ export default function Callback() {
   const oidcClientId = window.env.REACT_APP_OIDC_CLIENT_ID;
   const oidcClientSecret = window.env.REACT_APP_OIDC_CLIENT_SECRET; // Remove this completely...
   const oidcRedirectUri = window.env.REACT_APP_OIDC_REDIRECT_URI;
-  const body = {
-    grant_type: 'authorization_code',
-    client_id: 'ik-d-app',
-    client_secret: 'wc8PD4YKHLr9ayg2F4ce3M33', // Remove this completely, this should not be available to the browser...
-    code,
-    redirect_uri: 'http://localhost:3000/cb',
-  };
 
   useEffect(() => {
     // This command can get the access token...
@@ -29,7 +22,7 @@ export default function Callback() {
     // Trying to do the same as above, but got blocked by cors... Is a backend api needed?
     (async () => {
       const sendData = `grant_type=authorization_code&client_id=${oidcClientId}&client_secret=${oidcClientSecret}&code=${code}&redirect_uri=${oidcRedirectUri}`;
-      const response = await fetch('http://auth.development.iotakingdoms.com/token', {
+      const response = await fetch(`${oidcIssuer}/token`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
