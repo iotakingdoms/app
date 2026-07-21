@@ -46,6 +46,6 @@
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.31.0",
     "husky": "9.1.7",
-    "standard-version": "9.5.0"
+    "commit-and-tag-version": "9.5.0"
   }
 }
